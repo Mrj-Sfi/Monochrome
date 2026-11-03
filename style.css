@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;   
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+.imagefond{
+    background-image: url(asset/bg-image-hero.png);
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    height: 70vh;
+
+
+
+}
+
+.texteimagefond {
+    width: 350px;
+    padding: 60px 90px;
+}
